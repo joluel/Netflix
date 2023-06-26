@@ -1,0 +1,206 @@
+/* General */
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.restaurar {
+    clear: both;
+}
+
+/* Fondo */
+
+html, body, .cover {
+    height: 100%;
+}
+
+section {
+    border:  2px solid red;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section div.contenido {
+    /* background-color: #000000; */
+    width: 1100px;
+    border: 2px solid blue;
+    margin: auto;
+}
+
+section div.contenido div{
+    border: 2px solid rgb(218, 186, 8);
+}
+
+.principal {
+    background-color: #000000;
+
+}
+
+.cover  {
+    background: url(../img/CO-es-20230220-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    filter: blur(1px);
+    filter: brightness(40%);
+}
+
+.cover img {
+    background: linear-gradient(to bottom, rgba(3,3,3, 0.5));
+
+}
+
+/* Cabecera */
+
+section.cabecera {
+background-color: none;
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: linear-gradient(to top, rgba(0,0,0,.9));
+}
+
+nav {
+    margin: 0 3.5rem;
+    padding-top: 26px;
+}
+
+div.logo {
+    float: left;
+    font-size: 1.7rem;
+    color: red;
+}
+
+div.login {
+    float: right;
+    color: white;
+}
+
+div.login:hover {
+    cursor: pointer;
+}
+
+div.login span {
+    display: inline-block;
+    font-weight: 600;
+    padding: 7px 25px;
+    margin: 5px;
+    font-size: 1.5rem;
+    border: 2px solid black;
+    border-radius: .4rem;
+    background-color:#e50914;
+}
+
+.presentacion {
+    clear: both;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 10px;
+    text-align: center;
+    line-height: 50px;    
+}
+
+.presentacion h1 {
+    font-weight: 600;
+    font-size: 3.5rem;
+}
+.presentacion h2 {
+    font-weight: 500;
+    font-size: 1.65rem;
+}
+.presentacion h3 {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.email {
+    width: 70%;
+    height: 59px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    color: gray;
+}
+
+.btn-comenzar{   
+    display: inline-block; 
+    height: 56px;
+    padding: 0px 8px;
+    margin: -6px;
+    margin-top: -6px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    background-color:#e50914;
+    border: 0px solid black;
+}
+
+.btn-comenzar:hover {
+    cursor: pointer;
+    background-color: red;
+}
+
+/* TV */
+.izquierda {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    float: left;
+    background-color: #000000;
+}
+.derecha {
+    background-color: #000000;
+    float: right;
+}
+.flotanteTexto {
+    background-color: #000000;
+    width: 59%; 
+}
+.flotanteImagen {
+    background-color: #000000;
+    width: 40%;
+}
+
+.contenido img {
+    width: 100%;
+    height: auto;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.contenido h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.contenido p {
+    font-size: 25px;
+    font-family: 200;
+}
+
+.contenido video {
+    position: absolute;
+    transform: translate(-376px, 69px);
+    width: 313px;
+    z-index: 1;
+}
+
+.disfruta video {
+    position: absolute;
+    transform: translate(-361px, 29px);
+    width: 280px;
+    z-index: 1;
+}
+
+/* TV */
+
